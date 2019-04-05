@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Hangman</title>
+		<meta name="viewport" content="width=device-width"/>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script src="js/gameLibrary.js"></script>
+	</head>
+
+	<body>
+		<header><h1>Assignment 4: Phase I <br> HTML And CSS Only</h1></header>
+		<h1>Hangman</h1>
+
+		<nav class="navBar">
+			<a class="links" href="index.html">Home</a>
+			<a class="links" href="tictactoe.html">Tic Tac Toe</a>
+			<a class="links" href="rockpaperscissors.html">Rock Paper Scissors</a>
+			<a class="links" href="yatzee.html">Yahtzee</a>
+			<a class="links" href="memory.html">Memory Game</a>
+			<a class="links" href="hangman.html">Hangman</a>
+		</nav>
+
+		<main class="main">
+			<table>			
+				<tr>
+					<td colspan="13"><img id="hangmanModel" src="Images/HM.jpg"> </td>
+				</tr>
+				<tr>
+					<td id="A" class="letters"><button>A</button></td>
+					<td id="B" class="letters"><button>B</button></td>
+					<td id="C" class="letters"><button>C</button></td>
+					<td id="D" class="letters"><button>D</button></td>
+					<td id="E" class="letters"><button>E</button></td>
+					<td id="F" class="letters"><button>F</button></td>
+					<td id="G" class="letters"><button>G</button></td>
+					<td id="H" class="letters"><button>H</button></td>
+					<td id="I" class="letters"><button>I</button></td>
+					<td id="J" class="letters"><button>J</button></td>
+					<td id="K" class="letters"><button>K</button></td>
+					<td id="L" class="letters"><button>L</button></td>
+					<td id="M" class="letters"><button>M</button></td>
+				</tr>
+				<tr>		
+					<td id="N" class="letters"><button>N</button></td>
+					<td id="O" class="letters"><button>O</button></td>
+					<td id="P" class="letters"><button>P</button></td>
+					<td id="Q" class="letters"><button>Q</button></td>
+					<td id="R" class="letters"><button>R</button></td>
+					<td id="S" class="letters"><button>S</button></td>
+					<td id="T" class="letters"><button>T</button></td>
+					<td id="U" class="letters"><button>U</button></td>
+					<td id="V" class="letters"><button>V</button></td>
+					<td id="W" class="letters"><button>W</button></td>
+					<td id="X" class="letters"><button>X</button></td>
+					<td id="Y" class="letters"><button>Y</button></td>
+					<td id="Z" class="letters"><button>Z</button></td>
+				</tr>
+				<tr>
+					<td class="resetTable" colspan="13"><button>Reset</button></td>
+				</tr>
+			</table>
+
+			<div class="rules">
+				<p>Rules: The game will randomly generate a 6-8 letter word. You will pick letters you think are in the word. 
+				For every correct letter, it will display on the board. For every wrong letter, 
+				it will add a piece to the hanging man.</p>
+			</div>
+		</main>
+
+		<footer>
+			<p>dimarcok, SYST10199 Web Programming @ Sheridan College</p>
+		</footer>	
+	</body>
+</html>

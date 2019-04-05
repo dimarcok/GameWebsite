@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Yahtzee</title>
+		<meta name="viewport" content="width=device-width"/>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script src="js/gameLibrary.js"></script>
+	</head>
+
+	<body>
+		<header><h1>Assignment 4: Phase I <br> HTML And CSS Only</h1></header>
+		<h1>Yatzee</h1>
+
+		<nav class="navBar">
+			<a class="links" href="index.html">Home</a>
+			<a class="links" href="tictactoe.html">Tic Tac Toe</a>
+			<a class="links" href="rockpaperscissors.html">Rock Paper Scissors</a>
+			<a class="links" href="yatzee.html">Yahtzee</a>
+			<a class="links" href="memory.html">Memory Game</a>
+			<a class="links" href="hangman.html">Hangman</a>
+		</nav>
+
+		<main class="main">
+			<table>
+				<thead><th colspan="5">HighScore:</th></thead>
+				<tr>
+					<td><img src="Images/Dice1.png"></td>
+					<td><img src="Images/Dice2.png"></td>
+					<td><img src="Images/Dice3.png"></td>
+					<td><img src="Images/Dice4.png"></td>
+					<td><img src="Images/Dice5.png"></td>
+				</tr>
+				<tr>
+					<td> <input type="checkbox">Hold</td>
+					<td> <input type="checkbox">Hold</td>
+					<td> <input type="checkbox">Hold</td>
+					<td> <input type="checkbox">Hold</td>
+					<td> <input type="checkbox">Hold</td>
+
+				</tr>
+				<tr>				
+					<td colspan="5"><button>Roll!</button></td>
+				</tr>
+				<tr>
+					<td class="resetTable" colspan="5"><button>Reset</button></td>
+				</tr>
+			</table>
+			<div class="rules">
+				<p>Rules: Press roll and the game will roll five dice. Choose which dice you wish to hold. Hit roll again to roll the remaining dice. The game will then track your score!  </p>
+			</div>
+		</main>
+
+			
+		<footer>
+			<p>dimarcok, SYST10199 Web Programming @ Sheridan College</p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>RPS</title>
+		<meta name="viewport" content="widtd=device-widtd"/>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script src="js/gameLibrary.js"></script>
+	</head>
+
+
+
+	<body>
+		<header><h1>Assignment 4: Phase I <br> HTML And CSS Only</h1></header>
+		<h1>Rock Paper Scissors</h1>
+
+		<nav class="navBar">
+			<a class="links" href="index.html">Home</a>
+			<a class="links" href="tictactoe.html">Tic Tac Toe</a>
+			<a class="links" href="rockpaperscissors.html">Rock Paper Scissors</a>
+			<a class="links" href="yatzee.html">Yahtzee</a>
+			<a class="links" href="memory.html">Memory Game</a>
+			<a class="links" href="hangman.html">Hangman</a>
+		</nav>
+
+
+		<main>
+			<table>
+				<thead><th id="Wins">Wins:</th><th id="Losses">Losses:</th><th id="Ties">Ties:</th></thead>
+				<tr>
+					<td id="YourChoice">Your choice:</td>	
+					<td id="ComputerChoice">Computer choice:</td>
+					<td id="Outcome">Outcome: </td>
+				</tr>
+				<tr>
+					<td><button id="Rock"><img src="Images/Rock.png"></button></td>
+					<td><button id="Paper"><img src="Images/Paper.png"></button></td>
+					<td><button id="Scissors"><img src="Images/Scissors.png"></button></td>
+				</tr>
+				<tr>
+					<td class="resetTable" colspan="3"><button>Reset</button></td>
+				</tr>
+			</table>
+			<div class="rules">
+				<p>Rules: Choose Rock, Paper or Scissors. The computer will randomly choose one as well. 
+				Rock beats scissors, Paper beats Rock, Scissors beats paper.</p>
+			</div>
+		</main>
+		
+
+		<footer>
+			<p>dimarcok, SYST10199 Web Programming @ Sheridan College</p>
+		</footer>
+	</body>
+</html>
